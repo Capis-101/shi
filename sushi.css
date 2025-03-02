@@ -259,6 +259,58 @@ ul:hover li a:not(:hover) {
     height: 80vh;
     mix-blend-mode: multiply;
 }
+/* Mobile Styles (max-width: 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .home .hpage {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home .img img {
+    width: 80%;
+  }
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 20px;
+  }
+
+  .menu-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .apage, .locpage {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ima img, .iloc img {
+    width: 100%;
+  }
+
+  .contact img {
+    width: 80%;
+  }
+}
+
 
  
 
